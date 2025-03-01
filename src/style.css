@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+
+/* Typography */
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi-bold */
+}
+
+/* Global styles */
+.gradient-text {
+  background: linear-gradient(to right, #28A066, #216A43);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  line-height: 150%;
+  letter-spacing: -2%;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #28A066, #216A43);
+  color: white;
+}
